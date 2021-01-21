@@ -1,0 +1,6 @@
+#!/bin/bash
+path=$1
+searchRe=$2
+replaceRe=$3
+
+grep -rEl "$searchRe" $path | xargs sed -i "s/$searchRe/$replaceRe/g"
