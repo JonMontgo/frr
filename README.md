@@ -7,4 +7,4 @@ To choose a different binary install path `export $INSTALL_PATH="BLAHHH"`
 
 ## Usage
 
-`frr {path} {searchRegularExpression} {replaceRegularExpression}`
+`frr {path} {searchRegularExpression} {replacementString}`
